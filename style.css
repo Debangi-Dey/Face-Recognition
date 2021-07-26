@@ -1,0 +1,20 @@
+body {
+    background-image: url("http://www.lovethispic.com/uploaded_images/34876-1d-One-Direction.jpg");
+    background-size: contain;
+    color:red;
+}
+
+.heading {
+    width: 80%;
+    font-size: 22px;
+}
+
+.objects {
+    color:royalblue;
+}
+
+#camera, #result {
+    border:rgb(0, 0, 0) 2px dashed;
+    width: 350px;
+    height: 350px;
+}
