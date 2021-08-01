@@ -27,13 +27,15 @@
       <br><br>
 <div id="result"></div>
       <br><br>
+      <input type="file" multiple="false" accept= "image/*" id="image1" onchange="upload(this)">
+      <br>
 <button class="btn btn-info" onclick="takeSnapshot()">Capture Image</button>
       <br><br>
       <button class="btn btn-success" onclick="check()">Identify Image</button>
       <br><br>
 
-      <p style="font-size: 22px;">Object :  </p>
-      <p style="font-size: 22px;">Accuracy :  </p>
+      <p style="font-size: 22px;">Object :  <span id="objName"></span></p>
+      <p style="font-size: 22px;">Accuracy : <span id="ObjAcc"></span>  </p>
     </center>
 
   </div>
